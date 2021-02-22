@@ -11,16 +11,18 @@ I. inFile: a text file representing a histogram of a gray-scale image.  The inpu
 For example: 
 
 5  7  0  9 // 5 rows, 6 cols, min is 0 max 9 
-0 2		// hist[0] is 2
-1 8		// hist[1] is 8	
-2 5		:
-3 1		:
-4 0		:
-5 0		:
-6 1		:
-7 6		:
-8 5		:
-9 2		// hist[9] is 2
+|----------|------:|
+| 0 | 2 |	// hist[0] is 2
+| 1 | 8	|	// hist[1] is 8	
+| 2 | 5	|	:
+| 3 | 1 |		:
+| 4 | 0 |	:
+| 5 | 0 |	:
+| 6 | 1 |	:
+| 7 | 6 |	:
+| 8 | 5 |	:
+| 9 | 2 |	// hist[9] is 2
+
 
 
 II. outFile1: // To be printed and include in your hard copy.
