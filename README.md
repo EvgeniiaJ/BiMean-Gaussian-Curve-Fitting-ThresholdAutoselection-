@@ -26,7 +26,9 @@ For example:
 
 
 
-II. outFile1: // To be printed and include in your hard copy.
+II. 
+	outFile1: // To be printed and include in your hard copy.
+
 		This file include the followings:
 	a) A 2-D display of the histogram. // With a caption 
 	b) The selected threshold value.   // with a caption
@@ -36,11 +38,12 @@ II. outFile1: // To be printed and include in your hard copy.
 		  two best-fitting Gaussian curves and the histogram. //With a caption
 		// “With a caption” means you need to state what the output is about.
 
-outFile2: 
+	outFile2: 
+	
 	// A 2-D display of the two Gaussian curves in each iteration. 
 	// For your eyes (debugging) only, 
 
-outFile3: 
+	outFile3: 
 	// A 2-D display of the gaps between the histogram 
 	// and the Gaussian curves in each iteration. 
 	// For your eyes only, you only
